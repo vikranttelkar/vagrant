@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |abc|
   abc.vm.box = "vagranttestbox"
-  abc.vm.provision :shell, :path => "setup.sh"
+  abc.vm.box_url = "http://tag1consulting.com/files/vagramttestbox.box"
   abc.vm.network "forwarded_port", guest: 80, host: 6060
   abc.vm.network "forwarded_port", guest: 8080, host: 5050
   abc.vm.network "forwarded_port", guest: 2812, host: 2812
