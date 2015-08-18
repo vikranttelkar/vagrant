@@ -1,3 +1,3 @@
 # vagrant
-vagrant up
-vagrant provision
+#vagrant up
+#vagrant provision
